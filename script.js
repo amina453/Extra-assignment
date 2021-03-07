@@ -26,12 +26,7 @@ var mostFrequent;
 
 let theMostFrequentWord = mostFrequent;
 let numberOfWordsInTheMessage = myArray.length;
-
 console.log(theMostFrequentWord);
-console.log(`The most frequent word of the message is "${theMostFrequentWord}"`)
-console.log(`The number of words in the message is ${numberOfWordsInTheMessage}`)
-
-
 
 const randomPhrasesAndPictures = [
     {
@@ -51,5 +46,12 @@ const randomPhrasesAndPictures = [
 function RandomItem()
 {
     var random = randomPhrasesAndPictures[Math.floor(Math.random() * randomPhrasesAndPictures.length)];
-    document.getElementById("result").innerHTML = random;
+    document.getElementById("result").innerHTML = random;   
 }
+
+document.getElementById("submit").addEventListener("click",
+function() {
+  console.log(`The most frequent word of the message is "${theMostFrequentWord}"`)
+  console.log(`The number of words in the message is ${numberOfWordsInTheMessage}`)
+}
+);
