@@ -32,7 +32,7 @@ console.log(`The most frequent word of the message is "${theMostFrequentWord}"`)
 console.log(`The number of words in the message is ${numberOfWordsInTheMessage}`)
 
 
-// Random phrases and its pictures (represented as an array of objects)
+
 const randomPhrasesAndPictures = [
     {
         phrase: "A wizard is never late, nor is he early. He arrives precisely when he means to. (c) Gandalf The Grey",
