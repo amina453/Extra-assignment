@@ -7,11 +7,11 @@ var counts = {};
 var compare = 0;
 var mostFrequent;
 (function(array){
-   for(var i = 0, len = array.length; i < len; i++){
+   for(var i = 0, len = array.length - 1; i < len; i++){
        var word = array[i];
        
        if(counts[word] === undefined){
-           counts[word] = 1;
+           counts[word] = 0;
        }else{
            counts[word] = counts[word] + 1;
        }
