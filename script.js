@@ -54,4 +54,4 @@ function() {
   console.log(`The most frequent word of the message is "${theMostFrequentWord}"`)
   console.log(`The number of words in the message is ${numberOfWordsInTheMessage}`)
 }
-);
+); 
